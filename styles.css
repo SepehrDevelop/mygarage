@@ -1,0 +1,25 @@
+body, h1, h2, a {
+  font-family: 'Lucida Console', monospace;
+  color: white;
+}
+
+h1, h2 {
+  -webkit-text-stroke: 2px black;
+  text-align: center;
+}
+
+img {
+  border: 2px solid red;
+  border-radius: 8px;
+}
+
+body {
+  background-color: lightblue;
+}
+
+nav, ul {
+  text-align: center;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke: 1px red;
+  font-size: 30px;
+}
