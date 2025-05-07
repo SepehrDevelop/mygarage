@@ -8,11 +8,6 @@ h1, h2 {
   text-align: center;
 }
 
-img {
-  border: 2px solid red;
-  border-radius: 8px;
-}
-
 body {
   background-color: lightblue;
 }
@@ -22,4 +17,33 @@ nav, ul {
   -webkit-text-fill-color: white;
   -webkit-text-stroke: 1px red;
   font-size: 30px;
+}
+
+h1, h2{
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.target1, .target2 {
+  border: 5px solid red;
+}
+
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.target2 {
+  border: 5px solid yellow;
+}
+
+.target3 {
+  border: 5px solid lightgreen;
+}
+
+.number1 {
+  border: 5px solid blue;
 }
