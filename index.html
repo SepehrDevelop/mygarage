@@ -9,7 +9,7 @@
   <body>
     
    <div>
-    <h1>🚗 My Garage 🏍️</h1>
+    <h1 id='title'>🚗 My Garage 🏍️</h1>
    </div>
    
    <div>
@@ -25,7 +25,8 @@
     <h2>🚗 Hypercars 🏁</h2>
 
     <div><img src='images/AMGone.jpg' alt='AMG ONE' height='240' class='target1'/></div>
-    <div><img src="images/SportJesko.jpg" alt="Koenigsegg Jesko Absolut"  height="240" class='number1'/></div>
+    <div><img src="images/SportJesko.jpg" alt="Koenigsegg Jesko Absolut"  height="240" id='number1'/></div>
+    
     <div><img src="images/SportHuayra.jpg" alt="Pagani Huayra R" height="240" class='target2'/></div>
     <div><img src="images/SportChiron.jpg" alt="Bugatti Chiron Sport 300+" height="240" class='target3'/></div>
   
@@ -36,6 +37,24 @@
     <img src="images/MCHarleydavidson.webp" alt="Harley Davidson" height="240" class='target2'/>
     <img src="images/MCKawasaki.jpg" alt="Kawasaki H2" height="240" class='target1' />
    </div>
+   <div id='open'></div><button onclick="opengarage()">open garage</button>
+   <p id='close'></p><button onclick="closegarage()">close garage</button>
+  
+   <script>
+   document.getElementById('title').style.fontSize='100px';
+   function opengarage () {
+     document.getElementById('open').innerHTML='garage opened';
+     document.getElementById('open').style.color= 'black';
+     document.getElementById('open').style.fontSize='50px';
+   }	
+    function closegarage () {
+     document.getElementById('close').innerHTML='garage closed';
+     document.getElementById('close').style.color= 'black';
+     document.getElementById('close').style.fontSize='50px';
+   }
+   </script>
+   
+
  </body>
 </html>
 
